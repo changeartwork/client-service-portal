@@ -11,7 +11,7 @@ const userList = [
     name: 'Jason Alexander',
     username: 'jason_alexander',
     email: 'jason@ui-lib.com',
-    avatar: '/assets/images/face-6.jpg',
+    avatar: '../assets/images/face-6.jpg',
     age: 25,
   },
 ];
@@ -68,7 +68,7 @@ Mock.onPost('/api/auth/register').reply((config) => {
       name: '',
       username: username,
       email: email,
-      avatar: '/assets/images/face-6.jpg',
+      avatar: '../assets/images/face-6.jpg',
       age: 25,
     };
     userList.push(newUser);

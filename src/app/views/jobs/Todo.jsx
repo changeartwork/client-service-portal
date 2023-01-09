@@ -12,7 +12,7 @@ const Todo = () => {
   return (
     <Fragment>
       <ContentBox className="analytics">
-        <img src="/assets/images/illustrations/todo.svg" alt="Under Constructions" />
+        <img src="../assets/images/illustrations/todo.svg" alt="Under Constructions" />
       </ContentBox>
     </Fragment>
   );

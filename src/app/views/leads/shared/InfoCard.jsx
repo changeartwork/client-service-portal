@@ -35,7 +35,7 @@ const InfoCard = () => {
   return (
     <CardRoot>
       <StyledCard elevation={0}>
-        <img src="/assets/images/illustrations/info.png" alt="New Quotation" />
+        <img src="../assets/images/illustrations/info.png" alt="New Quotation" />
 
         <Paragraph>
           Kindly read the instructions before <b>placing the quote</b> <br />

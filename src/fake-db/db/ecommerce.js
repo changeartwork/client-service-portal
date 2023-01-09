@@ -5,7 +5,7 @@ const EcommerceDB = {
     productList: [
         {
             id: '323sa680b32497dsfdsgga21rt47',
-            imgUrl: '/assets/images/products/speaker-1.jpg',
+            imgUrl: '../assets/images/products/speaker-1.jpg',
             price: 324.0,
             totalUnit: 100,
             title: 'Bass Speaker Venue 8 - 8 - Intel Atom - 16GB - Black',
@@ -17,7 +17,7 @@ const EcommerceDB = {
         },
         {
             id: '323sa680b324976dfgga21rt47',
-            imgUrl: '/assets/images/products/speaker-2.jpg',
+            imgUrl: '../assets/images/products/speaker-2.jpg',
             price: 454.0,
             totalUnit: 100,
             title: 'Bass Speaker',
@@ -29,7 +29,7 @@ const EcommerceDB = {
         },
         {
             id: '323sa680bdf4976dfgga21rt4',
-            imgUrl: '/assets/images/products/headphone-1.jpg',
+            imgUrl: '../assets/images/products/headphone-1.jpg',
             price: 134.0,
             totalUnit: 100,
             title: 'Bass Speaker',
@@ -41,7 +41,7 @@ const EcommerceDB = {
         },
         {
             id: '333sa680bdf4976dfgga21rt4',
-            imgUrl: '/assets/images/products/headphone-2.jpg',
+            imgUrl: '../assets/images/products/headphone-2.jpg',
             price: 987.0,
             totalUnit: 100,
             title: 'Bit Bass Headphone',
@@ -53,7 +53,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/headphone-3.jpg',
+            imgUrl: '../assets/images/products/headphone-3.jpg',
             price: 870.0,
             totalUnit: 100,
             title: 'Sony Headphone',
@@ -65,7 +65,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/watch-1.jpg',
+            imgUrl: '../assets/images/products/watch-1.jpg',
             price: 23.0,
             totalUnit: 100,
             title: 'Comlion Watch',
@@ -77,7 +77,7 @@ const EcommerceDB = {
         },
         {
             id: '323sa680b32497dfdfgga21rt47',
-            imgUrl: '/assets/images/products/speaker-2.jpg',
+            imgUrl: '../assets/images/products/speaker-2.jpg',
             price: 454.0,
             totalUnit: 100,
             title: 'Bass Speaker',
@@ -89,7 +89,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/headphone-4.jpg',
+            imgUrl: '../assets/images/products/headphone-4.jpg',
             price: 299.0,
             totalUnit: 100,
             title: 'Beats Headphone',
@@ -101,7 +101,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/iphone-1.jpg',
+            imgUrl: '../assets/images/products/iphone-1.jpg',
             price: 978.0,
             totalUnit: 100,
             title: 'Iphone 11 Max Pro',
@@ -113,7 +113,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/iphone-2.jpg',
+            imgUrl: '../assets/images/products/iphone-2.jpg',
             price: 12.0,
             totalUnit: 100,
             title: 'IPhone 11 Max Pro Case',
@@ -125,7 +125,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/watch-1.jpg',
+            imgUrl: '../assets/images/products/watch-1.jpg',
             price: 23.0,
             totalUnit: 100,
             title: 'Comlion Watch',
@@ -137,7 +137,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/watch-2.jpg',
+            imgUrl: '../assets/images/products/watch-2.jpg',
             price: 75.0,
             totalUnit: 100,
             title: 'Kurren Watch',
@@ -149,7 +149,7 @@ const EcommerceDB = {
         },
         {
             id: shortId.generate(),
-            imgUrl: '/assets/images/products/iphone-1.jpg',
+            imgUrl: '../assets/images/products/iphone-1.jpg',
             price: 978.0,
             totalUnit: 100,
             title: 'Iphone 11 Max Pro',
@@ -254,17 +254,17 @@ const EcommerceDB = {
         {
             id: '1',
             name: 'John Doe',
-            avatar: '/assets/images/face-7.jpg',
+            avatar: '../assets/images/face-7.jpg',
         },
         {
             id: '323sa680b3249760ea21rt47',
             name: 'Frank Powell',
-            avatar: '/assets/images/faces/13.jpg',
+            avatar: '../assets/images/faces/13.jpg',
         },
         {
             id: '7863a6802ez0e277a0f98534',
             name: 'John Doe',
-            avatar: '/assets/images/face-1.jpg',
+            avatar: '../assets/images/face-1.jpg',
         },
     ],
 }

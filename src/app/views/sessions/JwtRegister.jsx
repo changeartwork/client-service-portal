@@ -59,7 +59,7 @@ const JwtRegister = () => {
 
     try {
       register(values.email, values.username, values.password);
-      navigate('/');
+      navigate('/csp');
       setLoading(false);
     } catch (e) {
       console.log(e);
@@ -76,7 +76,7 @@ const JwtRegister = () => {
               <img
                 width="100%"
                 alt="Register"
-                src="/assets/images/illustrations/posting_photo.svg"
+                src="../assets/images/illustrations/posting_photo.svg"
               />
             </ContentBox>
           </Grid>

@@ -202,7 +202,7 @@ const demoLayouts = [
   {
     isPro: false,
     name: 'Light Sidebar',
-    thumbnail: '/assets/images/screenshots/layout1-customizer.png',
+    thumbnail: '../assets/images/screenshots/layout1-customizer.png',
     options: {
       activeTheme: 'blue',
       activeLayout: 'layout1',
@@ -216,7 +216,7 @@ const demoLayouts = [
   {
     isPro: false,
     name: 'Compact Sidebar',
-    thumbnail: '/assets/images/screenshots/layout5-customizer.png',
+    thumbnail: '../assets/images/screenshots/layout5-customizer.png',
     options: {
       activeTheme: 'blue',
       activeLayout: 'layout1',
@@ -229,7 +229,7 @@ const demoLayouts = [
   {
     isPro: false,
     name: 'Dark Sidebar',
-    thumbnail: '/assets/images/screenshots/layout1-blue-customizer.png',
+    thumbnail: '../assets/images/screenshots/layout1-blue-customizer.png',
     options: {
       activeTheme: 'blue',
       activeLayout: 'layout1',

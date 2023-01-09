@@ -34,7 +34,7 @@ const UpgradeCard = () => {
   return (
     <CardRoot>
       <StyledCard elevation={0}>
-        <img src="/assets/images/illustrations/upgrade.png" alt="New Quotation" />
+        <img src="../assets/images/illustrations/upgrade.png" alt="New Quotation" />
 
         <Paragraph>
           It is not advisable to create a quote <b>for client</b> <br /> If possible ask the client to create quote from their client portal or using our web portal.

@@ -109,7 +109,7 @@ const Chatbox = ({ togglePopup }) => {
       let messageObject = {
         text: 'Good to hear from you. enjoy!!!',
         contactId: 'opponents contact id',
-        avatar: '/assets/images/faces/13.jpg',
+        avatar: '../assets/images/faces/13.jpg',
         name: 'Frank Powell',
       };
 
@@ -137,7 +137,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '323sa680b3249760ea21rt47',
           name: 'Frank Powell',
-          avatar: '/assets/images/faces/13.jpg',
+          avatar: '../assets/images/faces/13.jpg',
           status: 'online',
           mood: '',
         },
@@ -147,7 +147,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '7863a6802ez0e277a0f98534',
           name: 'John Doe',
-          avatar: '/assets/images/face-1.jpg',
+          avatar: '../assets/images/face-1.jpg',
           status: 'online',
           mood: '',
         },
@@ -157,7 +157,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '323sa680b3249760ea21rt47',
           name: 'Frank Powell',
-          avatar: '/assets/images/faces/13.jpg',
+          avatar: '../assets/images/faces/13.jpg',
           status: 'online',
           mood: '',
         },
@@ -167,7 +167,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '7863a6802ez0e277a0f98534',
           name: 'John Doe',
-          avatar: '/assets/images/face-1.jpg',
+          avatar: '../assets/images/face-1.jpg',
           status: 'online',
           mood: '',
         },
@@ -177,7 +177,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '323sa680b3249760ea21rt47',
           name: 'Frank Powell',
-          avatar: '/assets/images/faces/13.jpg',
+          avatar: '../assets/images/faces/13.jpg',
           status: 'online',
           mood: '',
         },
@@ -187,7 +187,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '7863a6802ez0e277a0f98534',
           name: 'John Doe',
-          avatar: '/assets/images/face-1.jpg',
+          avatar: '../assets/images/face-1.jpg',
           status: 'online',
           mood: '',
         },
@@ -197,7 +197,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '323sa680b3249760ea21rt47',
           name: 'Frank Powell',
-          avatar: '/assets/images/faces/13.jpg',
+          avatar: '../assets/images/faces/13.jpg',
           status: 'online',
           mood: '',
         },
@@ -207,7 +207,7 @@ const Chatbox = ({ togglePopup }) => {
           time: '2018-02-10T08:45:28.291Z',
           id: '7863a6802ez0e277a0f98534',
           name: 'John Doe',
-          avatar: '/assets/images/face-1.jpg',
+          avatar: '../assets/images/face-1.jpg',
           status: 'online',
           mood: '',
         },
@@ -235,7 +235,7 @@ const Chatbox = ({ togglePopup }) => {
     <ChatContainer>
       <ProfileBox>
         <Box display="flex" alignItems="center">
-          <ChatAvatar src="/assets/images/face-2.jpg" status="online" />
+          <ChatAvatar src="../assets/images/face-2.jpg" status="online" />
           <ChatStatus>
             <H5>Ryan Todd</H5>
             <Span>Active</Span>
@@ -278,7 +278,7 @@ const Chatbox = ({ togglePopup }) => {
         <ChatImgContainer>
           <Box ml="12px">
             <ChatImgBox>
-              <ChatImg alt="laptop" src="/assets/images/laptop-1.png" />
+              <ChatImg alt="laptop" src="../assets/images/laptop-1.png" />
               <Box ml="12px">
                 <H6 sx={{ mt: 0, mb: '4px' }}>Asus K555LA.png</H6>
                 <ChatImgSize>21.5KB</ChatImgSize>
