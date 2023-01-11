@@ -1,5 +1,4 @@
 import {
-  Avatar,
   Box,
   Card,
   Icon,
@@ -94,7 +93,7 @@ const TopSellingTable = () => {
         error.response && setErrorMsg(error.response.data);
       }
     };
-    getFilesList();
+    getFilesList(); // eslint-disable-next-line
   }, []);
 
   return (
@@ -196,32 +195,5 @@ const TopSellingTable = () => {
     </Card>
   );
 };
-
-const productList = [
-  {
-    start_date: '12.01.2023',
-    name: 'Peter John',
-    email: 'peter.john@gmail.com',
-    status: 'NEW',
-  },
-  {
-    start_date: '12.02.2023',
-    name: 'Kings Morgan',
-    email: 'morgan.kings@gmail.com',
-    status: 'INPROGRESS',
-  },
-  {
-    start_date: '22.01.2023',
-    name: 'Jenifer Annie',
-    email: 'annie.jenifer@gmail.com',
-    status: 'ONHOLD',
-  },
-  {
-    start_date: '16.11.2022',
-    name: 'Mohammed Yusuf',
-    email: 'md.yusuf@gmail.com',
-    status: 'NEW',
-  }
-];
 
 export default TopSellingTable;

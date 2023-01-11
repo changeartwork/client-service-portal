@@ -1,11 +1,11 @@
 import { LoadingButton } from '@mui/lab';
 import { Card, Checkbox, Grid, TextField, FormHelperText } from '@mui/material';
-import { Box, styled, useTheme } from '@mui/system';
+import { Box, styled } from '@mui/system';
 import { Paragraph } from 'app/components/Typography';
 import useAuth from 'app/hooks/useAuth';
 import { Formik } from 'formik';
 import { useState } from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import * as Yup from 'yup';
 
 const FlexBox = styled(Box)(() => ({ display: 'flex', alignItems: 'center' }));
@@ -20,7 +20,7 @@ const ContentBox = styled(Box)(() => ({
 }));
 
 const JWTRoot = styled(JustifyBox)(() => ({
-  background: '#1A2038',
+  background: '#4F4F4F',
   minHeight: '100% !important',
   '& .card': {
     maxWidth: 800,
@@ -47,8 +47,14 @@ const validationSchema = Yup.object().shape({
   email: Yup.string().email('Invalid Email address').required('Email is required!'),
 });
 
+const Div = styled('div')(({ theme }) => ({
+  ...theme.typography.button,
+  backgroundColor: theme.palette.background.paper,
+  padding: theme.spacing(4),
+  color: 'rgba(253, 159, 10)'
+}));
+
 const JwtLogin = () => {
-  const theme = useTheme();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
@@ -85,6 +91,8 @@ const JwtLogin = () => {
 
           <Grid item sm={6} xs={12}>
             <ContentBox>
+              
+          <Div>{"CHANGE! - Client Service Portal"}</Div>
               <Formik
                 onSubmit={handleFormSubmit}
                 initialValues={initialValues}
@@ -135,12 +143,12 @@ const JwtLogin = () => {
                         <Paragraph>Remember Me</Paragraph>
                       </FlexBox>
 
-                      <NavLink
+                      {/* <NavLink
                         to="/csp/session/forgot-password"
                         style={{ color: theme.palette.primary.main }}
                       >
                         Forgot password?
-                      </NavLink>
+                      </NavLink> */}
                     </FlexBox>
 
                     <LoadingButton
@@ -159,7 +167,7 @@ const JwtLogin = () => {
                         </FormHelperText>
                       </Box>
                     )}
-                    <Paragraph>
+                    {/* <Paragraph>
                       Don't have an account?
                       <NavLink
                         to="/csp/session/signup"
@@ -167,7 +175,7 @@ const JwtLogin = () => {
                       >
                         Register
                       </NavLink>
-                    </Paragraph>
+                    </Paragraph> */}
                   </form>
                 )}
               </Formik>

@@ -1,6 +1,5 @@
-import { Button, Card, styled } from '@mui/material';
+import { Card, styled } from '@mui/material';
 import { convertHexToRGB } from 'app/utils/utils';
-import { useNavigate } from 'react-router-dom';
 
 const CardRoot = styled(Card)(({ theme }) => ({
   marginBottom: '24px',
@@ -28,10 +27,6 @@ const Paragraph = styled('p')(({ theme }) => ({
 
 
 const InfoCard = () => {
-  const navigate = useNavigate();
-  const redirectToCreateQuote = () => {
-    navigate('/csp/quote/create')
-  }
   return (
     <CardRoot>
       <StyledCard elevation={0}>

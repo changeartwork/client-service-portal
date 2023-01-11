@@ -49,6 +49,8 @@ export const components = {
         fontSize: '14px',
         textTransform: 'none',
         fontWeight: '400',
+        color: '#ffffff',
+        backgroundColor: 'rgba(253, 159, 10)',
       },
       contained: {
         boxShadow: themeShadows[8],

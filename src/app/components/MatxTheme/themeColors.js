@@ -6,7 +6,7 @@ const textLight = {
 };
 
 const textDark = {
-  primary: '#fff',
+  primary: '#FD9F0A',
   secondary: 'rgba(255, 255, 255, 0.7)',
   disabled: 'rgba(255, 255, 255, 0.64)',
   hint: 'rgba(255, 255, 255, 0.64)',
@@ -46,11 +46,11 @@ export const themeColors = {
     palette: {
       type: 'light',
       primary: {
-        main: '#ffffff',
+        main: '#FAAA16',
         contrastText: textLight.primary,
       },
       secondary: {
-        main: '#1976d2',
+        main: '#4F4F4F',
         contrastText: '#ffffff',
       },
       background: {
@@ -64,7 +64,7 @@ export const themeColors = {
     palette: {
       type: 'dark',
       primary: {
-        main: '#222A45',
+        main: '#4F4F4F',
         contrastText: '#ffffff',
       },
       secondary: {

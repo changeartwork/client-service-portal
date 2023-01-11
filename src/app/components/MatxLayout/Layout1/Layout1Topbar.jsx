@@ -2,15 +2,12 @@ import { Avatar, Hidden, Icon, IconButton, MenuItem, useMediaQuery } from '@mui/
 import { Box, styled, useTheme } from '@mui/system';
 import { MatxMenu, MatxSearchBox } from 'app/components';
 import { themeShadows } from 'app/components/MatxTheme/themeColors';
-import { NotificationProvider } from 'app/contexts/NotificationContext';
 import useAuth from 'app/hooks/useAuth';
 import useSettings from 'app/hooks/useSettings';
 import { topBarHeight } from 'app/utils/constant';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Span } from '../../../components/Typography';
-import NotificationBar from '../../NotificationBar/NotificationBar';
-// import ShoppingCart from '../../ShoppingCart';
 
 const StyledIconButton = styled(IconButton)(({ theme }) => ({
   color: theme.palette.text.primary,
@@ -63,11 +60,6 @@ const StyledItem = styled(MenuItem)(({ theme }) => ({
     textDecoration: 'none',
   },
   '& span': { marginRight: '10px', color: theme.palette.text.primary },
-}));
-
-const IconBox = styled('div')(({ theme }) => ({
-  display: 'inherit',
-  [theme.breakpoints.down('md')]: { display: 'none !important' },
 }));
 
 const Layout1Topbar = () => {
@@ -138,14 +130,14 @@ const Layout1Topbar = () => {
             }
           >
             <StyledItem>
-              <Link to="/">
+              <Link to="/csp/dashboard/default">
                 <Icon> home </Icon>
                 <Span> Home </Span>
               </Link>
             </StyledItem>
 
             <StyledItem>
-              <Link to="/page-layouts/user-profile">
+              <Link to="/csp/dashboard/default">
                 <Icon> person </Icon>
                 <Span> Profile </Span>
               </Link>

@@ -1,4 +1,4 @@
-import { useTheme, styled } from '@mui/material';
+import { styled } from '@mui/material';
 import { Fragment } from 'react';
 
 const ContentBox = styled('div')(({ theme }) => ({
@@ -7,7 +7,6 @@ const ContentBox = styled('div')(({ theme }) => ({
 }));
 
 const Todo = () => {
-  const { palette } = useTheme();
 
   return (
     <Fragment>
