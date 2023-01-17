@@ -67,7 +67,7 @@ const JwtLogin = () => {
   }) => {
     setLoading(true);
     try {
-      await login(values.email, values.password);
+      await login(values.email, values.password, "admin");
       setStatus({ success: true });
       setSubmitting(false);
       navigate('/csp');

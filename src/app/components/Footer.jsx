@@ -46,7 +46,7 @@ const Footer = () => {
             </a> */}
             <Span sx={{ m: 'auto' }}></Span>
             <Paragraph sx={{ m: 0 }}>
-              Client Portal © 2023 - CHANGE! (Beta Version)
+              Client Service Portal © 2023 - CHANGE! (Beta Version)
             </Paragraph>
           </FooterContent>
         </AppFooter>

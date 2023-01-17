@@ -46,7 +46,7 @@ const ForgotPassword = () => {
       <Card className="card">
         <Grid container>
           <Grid item xs={12}>
-          <Div>{"CHANGE! - Client Portal"}</Div>
+          <Div>{"CHANGE! - Client Service Portal"}</Div>
             <JustifyBox p={4}>
               <img width="300" src="../assets/images/illustrations/dreamer.svg" alt="" />
             </JustifyBox>
