@@ -6,6 +6,7 @@ import sessionRoutes from 'app/views/sessions/SessionRoutes';
 import { Navigate } from 'react-router-dom';
 import MatxLayout from './components/MatxLayout/MatxLayout';
 import jobsRoutes from './views/jobs/jobsRoutes';
+import settingsRoutes from './views/settings/settingsRoutes';
 
 const routes = [
   {
@@ -14,7 +15,7 @@ const routes = [
         <MatxLayout />
       </AuthGuard>
     ),
-    children: [...dashboardRoutes, ...leadsRoutes, ...jobsRoutes]
+    children: [...dashboardRoutes, ...leadsRoutes, ...jobsRoutes, ...settingsRoutes]
   },
   ...sessionRoutes,
   { path: '/csp', element: <Navigate to="/csp/dashboard/default" /> },
